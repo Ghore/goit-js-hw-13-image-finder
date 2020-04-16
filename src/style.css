@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+form {
+    margin: auto;
+    padding: 4em;
+}
+input {
+    font-size: 2em;
+    color: #888;
+    margin-top: 0.25em;
+
+}
+button {
+    display: flex;
+    display: inline-block;
+    font-size: 1.5em;
+    background: brown;
+    color: white;
+    border: none;
+    border-radius: 0.25em;
+    margin-left: 3.9375rem;
+
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
